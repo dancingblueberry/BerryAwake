@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
-               BuildableName = "SmartGym.app"
+               BuildableName = "BerryAwake.app"
                BlueprintName = "BerryAwake"
                ReferencedContainer = "container:BerryAwake.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
-            BuildableName = "SmartGym.app"
+            BuildableName = "BerryAwake.app"
             BlueprintName = "BerryAwake"
             ReferencedContainer = "container:BerryAwake.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
-            BuildableName = "SmartGym.app"
+            BuildableName = "BerryAwake.app"
             BlueprintName = "BerryAwake"
             ReferencedContainer = "container:BerryAwake.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
-            BuildableName = "SmartGym.app"
+            BuildableName = "BerryAwake.app"
             BlueprintName = "BerryAwake"
             ReferencedContainer = "container:BerryAwake.xcodeproj">
          </BuildableReference>

@@ -43,7 +43,6 @@ class NewsTableViewController: UITableViewController {
         // Return the number of rows in the section.
         return 3
     }
-
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! NewsTableViewCell

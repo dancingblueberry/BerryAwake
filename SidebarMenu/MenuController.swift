@@ -10,6 +10,7 @@ import UIKit
 
 class MenuController: UITableViewController {
 
+//    @IBOutlet weak var tableCellLogout: UITableViewCell!
     override func viewDidLoad() {
         super.viewDidLoad()
 

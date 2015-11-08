@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABA664881BEF0E88001C2EEF /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */; };
+		ABC3DC5B1BEE85480011D22F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */; };
 		ABE1019C1BE7033900ACCE0A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1019B1BE7033900ACCE0A /* SWRevealViewController.m */; };
 		ABE1019E1BE7276600ACCE0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE1019D1BE7276600ACCE0A /* AudioToolbox.framework */; };
 		ABE101A01BE7276F00ACCE0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE1019F1BE7276F00ACCE0A /* Foundation.framework */; };
@@ -22,7 +24,7 @@
 		ABE101B81BE72A3400ACCE0A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE101B71BE72A3400ACCE0A /* libsqlite3.tbd */; };
 		ABE101BF1BE72CC900ACCE0A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE101BD1BE72CC900ACCE0A /* Bolts.framework */; };
 		ABE101C01BE72CC900ACCE0A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE101BE1BE72CC900ACCE0A /* Parse.framework */; };
-		ABE101C21BE72D9900ACCE0A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE101C11BE72D9900ACCE0A /* LoginController.swift */; };
+		ABE101C21BE72D9900ACCE0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE101C11BE72D9900ACCE0A /* LoginViewController.swift */; };
 		F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47029F51A7F27DB00E30A3C /* AppDelegate.swift */; };
 		F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47029F91A7F27DB00E30A3C /* Main.storyboard */; };
 		F47029FD1A7F27DB00E30A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47029FC1A7F27DB00E30A3C /* Images.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		ABE101991BE7033900ACCE0A /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 		ABE1019A1BE7033900ACCE0A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		ABE1019B1BE7033900ACCE0A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -64,7 +68,7 @@
 		ABE101B71BE72A3400ACCE0A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		ABE101BD1BE72CC900ACCE0A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		ABE101BE1BE72CC900ACCE0A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		ABE101C11BE72D9900ACCE0A /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		ABE101C11BE72D9900ACCE0A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F47029F01A7F27DB00E30A3C /* BerryAwake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerryAwake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47029F41A7F27DB00E30A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47029F51A7F27DB00E30A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,7 +169,9 @@
 				F47029F51A7F27DB00E30A3C /* AppDelegate.swift */,
 				F47029FC1A7F27DB00E30A3C /* Images.xcassets */,
 				F47029F31A7F27DB00E30A3C /* Supporting Files */,
-				ABE101C11BE72D9900ACCE0A /* LoginController.swift */,
+				ABE101C11BE72D9900ACCE0A /* LoginViewController.swift */,
+				ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */,
+				ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */,
 				F4702A171A7F351C00E30A3C /* MenuController.swift */,
 				F491E7491A7F4B300026528E /* NewsTableViewController.swift */,
 				F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */,
@@ -310,13 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC3DC5B1BEE85480011D22F /* SignupViewController.swift in Sources */,
 				ABE1019C1BE7033900ACCE0A /* SWRevealViewController.m in Sources */,
 				F4702A181A7F351C00E30A3C /* MenuController.swift in Sources */,
 				F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */,
 				F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */,
 				F491E7531A7F7DF20026528E /* MapViewController.swift in Sources */,
-				ABE101C21BE72D9900ACCE0A /* LoginController.swift in Sources */,
+				ABE101C21BE72D9900ACCE0A /* LoginViewController.swift in Sources */,
 				F491E74A1A7F4B300026528E /* NewsTableViewController.swift in Sources */,
+				ABA664881BEF0E88001C2EEF /* LogoutViewController.swift in Sources */,
 				F491E7551A7F7E010026528E /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
