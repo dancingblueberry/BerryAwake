@@ -29,9 +29,12 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
         if PFUser.currentUser() != nil {
             // Do stuff after successful login.
             print("<LOGIN> Success")
-            dispatch_async(dispatch_get_main_queue()) {
-                self.performSegueWithIdentifier("signupToHome", sender: self)
-            }
+//            dispatch_async(dispatch_get_main_queue()) {
+//                self.performSegueWithIdentifier("signupToHome", sender: self)
+//            }
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
+            self.presentViewController(vc, animated: true, completion: nil)
         }
         setupDelegates()
         super.viewDidLoad()
@@ -76,9 +79,12 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
                         if currentUser != nil {
                             // Do stuff after successful login.
                             print("<LOGIN> Success")
-                            dispatch_async(dispatch_get_main_queue()) {
-                                self.performSegueWithIdentifier("signupToHome", sender: self)
-                            }
+//                            dispatch_async(dispatch_get_main_queue()) {
+//                                self.performSegueWithIdentifier("signupToHome", sender: self)
+//                            }
+                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            let vc = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
+                            self.presentViewController(vc, animated: true, completion: nil)
                         }
                     } catch _ {
                         print("<LOGIN> Failed")
@@ -94,7 +100,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
-        print("IN textFieldShouldReturn()")
+//        print("IN textFieldShouldReturn()")
         if (textField == textFieldEmail) {
             self.textFieldEmail.resignFirstResponder()
             self.textFieldUsername.becomeFirstResponder()

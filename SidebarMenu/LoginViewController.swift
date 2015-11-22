@@ -23,14 +23,43 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.textFieldPassword.delegate = self
     }
     
-    override func viewDidLoad() {
+    override func viewDidAppear(animated: Bool) {
+        setupDelegates()
+        
         // if already logged in, go to home page
         if PFUser.currentUser() != nil {
-            dispatch_async(dispatch_get_main_queue()) {
-                self.performSegueWithIdentifier("loginToHome", sender: self)
-            }
+            //            dispatch_async(dispatch_get_main_queue()) {
+            //                self.performSegueWithIdentifier("loginToHome", sender: self)
+            //            }
+            print("ALREADY LOGGED IN")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
+            self.presentViewController(vc, animated: true, completion: nil)
+            
+            //            // step 2. take a storyboard variable
+            //            var storyBoard:UIStoryboard? = nil
+            //
+            //            // step 3. load appropriate storyboard file
+            //            storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            //
+            //            // step 4. un-box storyboard to sb variable
+            //            if let sb = storyBoard {
+            //
+            //                // step 5. create new window
+            //                let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+            //
+            //                // step 6. generates error :( 'Cannot assign to the result of this expression'
+            ////                self.window?.rootViewController?.storyboard = sb
+            //                window.rootViewController = sb.instantiateInitialViewController() as! LoginViewController
+            //                
+            //                // step 7. make key window & visible
+            //                window.makeKeyAndVisible()
+            //            }
         }
-        setupDelegates()
+
+    }
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         activityIndicator.hidden = true
@@ -59,9 +88,32 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 if user != nil {
                     // Do stuff after successful login.
                     print("<LOGIN> Success")
-                    dispatch_async(dispatch_get_main_queue()) {
-                        self.performSegueWithIdentifier("loginToHome", sender: self)
-                    }
+//                    dispatch_async(dispatch_get_main_queue()) {
+//                        self.performSegueWithIdentifier("loginToHome", sender: self)
+//                    }
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    let vc = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
+                    self.presentViewController(vc, animated: true, completion: nil)
+                    
+//                    // step 2. take a storyboard variable
+//                    var storyBoard:UIStoryboard? = nil
+//                    
+//                    // step 3. load appropriate storyboard file
+//                    storyBoard = UIStoryboard(name: "Main", bundle: nil)
+//                    
+//                    // step 4. un-box storyboard to sb variable
+//                    if let sb = storyBoard {
+//                        
+//                        // step 5. create new window
+//                        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//                        
+//                        // step 6. generates error :( 'Cannot assign to the result of this expression'
+//                        //                self.window?.rootViewController?.storyboard = sb
+//                        window.rootViewController = sb.instantiateInitialViewController() as! LoginViewController
+//                        
+//                        // step 7. make key window & visible
+//                        window.makeKeyAndVisible()
+//                    }
                 } else {
                     // The login failed. Check error to see why.
                     print("<LOGIN> Failed")
@@ -77,7 +129,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
-        print("IN textFieldShouldReturn()")
+//        print("IN textFieldShouldReturn()")
         if (textField == textFieldUsername) {
             self.textFieldUsername.resignFirstResponder()
             self.textFieldPassword.becomeFirstResponder()

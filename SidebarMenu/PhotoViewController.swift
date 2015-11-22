@@ -11,6 +11,14 @@ import UIKit
 class PhotoViewController: UIViewController {
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
+    override func viewDidAppear(animated: Bool) {
+        if PFUser.currentUser() == nil {
+            let storyboard = UIStoryboard(name: "Login", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("SignUpInViewController") as! LoginViewController
+            self.presentViewController(vc, animated: true, completion: nil)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

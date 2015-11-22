@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB45EA861C01A1DC0097CE4F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB45EA851C01A1DC0097CE4F /* ParseUI.framework */; };
+		AB45EA881C01BA5B0097CE4F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45EA871C01BA5B0097CE4F /* Login.storyboard */; };
+		AB45EA8D1C0250230097CE4F /* AlarmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45EA8C1C0250230097CE4F /* AlarmsTableViewCell.swift */; };
+		AB45EA8F1C02504C0097CE4F /* AlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45EA8E1C02504C0097CE4F /* AlarmsTableViewController.swift */; };
 		ABA664881BEF0E88001C2EEF /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */; };
 		ABC3DC5B1BEE85480011D22F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */; };
 		ABE1019C1BE7033900ACCE0A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1019B1BE7033900ACCE0A /* SWRevealViewController.m */; };
@@ -32,8 +36,6 @@
 		F4702A0C1A7F27DC00E30A3C /* SidebarMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702A0B1A7F27DC00E30A3C /* SidebarMenuTests.swift */; };
 		F4702A161A7F342F00E30A3C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4702A151A7F342F00E30A3C /* MapKit.framework */; };
 		F4702A181A7F351C00E30A3C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702A171A7F351C00E30A3C /* MenuController.swift */; };
-		F491E74A1A7F4B300026528E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E7491A7F4B300026528E /* NewsTableViewController.swift */; };
-		F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */; };
 		F491E7531A7F7DF20026528E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E7521A7F7DF20026528E /* MapViewController.swift */; };
 		F491E7551A7F7E010026528E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491E7541A7F7E010026528E /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB45EA851C01A1DC0097CE4F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		AB45EA871C01BA5B0097CE4F /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AB45EA8C1C0250230097CE4F /* AlarmsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewCell.swift; sourceTree = "<group>"; };
+		AB45EA8E1C02504C0097CE4F /* AlarmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewController.swift; sourceTree = "<group>"; };
 		ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		ABE101991BE7033900ACCE0A /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -80,8 +86,6 @@
 		F4702A0B1A7F27DC00E30A3C /* SidebarMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenuTests.swift; sourceTree = "<group>"; };
 		F4702A151A7F342F00E30A3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F4702A171A7F351C00E30A3C /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		F491E7491A7F4B300026528E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
-		F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		F491E7521A7F7DF20026528E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F491E7541A7F7E010026528E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB45EA861C01A1DC0097CE4F /* ParseUI.framework in Frameworks */,
 				ABE101B81BE72A3400ACCE0A /* libsqlite3.tbd in Frameworks */,
 				ABE101AE1BE727B800ACCE0A /* SystemConfiguration.framework in Frameworks */,
 				ABE101AC1BE727B200ACCE0A /* StoreKit.framework in Frameworks */,
@@ -119,6 +124,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB45EA891C01BAD30097CE4F /* loginStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				ABE101C11BE72D9900ACCE0A /* LoginViewController.swift */,
+				ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */,
+			);
+			name = loginStoryboard;
+			sourceTree = "<group>";
+		};
 		ABE101981BE702E200ACCE0A /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +146,7 @@
 		F47029E71A7F27DB00E30A3C = {
 			isa = PBXGroup;
 			children = (
+				AB45EA851C01A1DC0097CE4F /* ParseUI.framework */,
 				ABE101B71BE72A3400ACCE0A /* libsqlite3.tbd */,
 				ABE101B31BE729B200ACCE0A /* libz.tbd */,
 				ABE101BD1BE72CC900ACCE0A /* Bolts.framework */,
@@ -169,14 +184,14 @@
 				F47029F51A7F27DB00E30A3C /* AppDelegate.swift */,
 				F47029FC1A7F27DB00E30A3C /* Images.xcassets */,
 				F47029F31A7F27DB00E30A3C /* Supporting Files */,
-				ABE101C11BE72D9900ACCE0A /* LoginViewController.swift */,
-				ABC3DC5A1BEE85480011D22F /* SignupViewController.swift */,
+				AB45EA891C01BAD30097CE4F /* loginStoryboard */,
 				ABA664871BEF0E88001C2EEF /* LogoutViewController.swift */,
 				F4702A171A7F351C00E30A3C /* MenuController.swift */,
-				F491E7491A7F4B300026528E /* NewsTableViewController.swift */,
-				F491E74B1A7F4C630026528E /* NewsTableViewCell.swift */,
+				AB45EA8E1C02504C0097CE4F /* AlarmsTableViewController.swift */,
+				AB45EA8C1C0250230097CE4F /* AlarmsTableViewCell.swift */,
 				F491E7521A7F7DF20026528E /* MapViewController.swift */,
 				F491E7541A7F7E010026528E /* PhotoViewController.swift */,
+				AB45EA871C01BA5B0097CE4F /* Login.storyboard */,
 				F47029F91A7F27DB00E30A3C /* Main.storyboard */,
 				F47029FE1A7F27DB00E30A3C /* LaunchScreen.xib */,
 			);
@@ -296,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB45EA881C01BA5B0097CE4F /* Login.storyboard in Resources */,
 				F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */,
 				F4702A001A7F27DC00E30A3C /* LaunchScreen.xib in Resources */,
 				F47029FD1A7F27DB00E30A3C /* Images.xcassets in Resources */,
@@ -317,13 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC3DC5B1BEE85480011D22F /* SignupViewController.swift in Sources */,
+				AB45EA8F1C02504C0097CE4F /* AlarmsTableViewController.swift in Sources */,
 				ABE1019C1BE7033900ACCE0A /* SWRevealViewController.m in Sources */,
 				F4702A181A7F351C00E30A3C /* MenuController.swift in Sources */,
 				F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */,
-				F491E74C1A7F4C630026528E /* NewsTableViewCell.swift in Sources */,
 				F491E7531A7F7DF20026528E /* MapViewController.swift in Sources */,
+				AB45EA8D1C0250230097CE4F /* AlarmsTableViewCell.swift in Sources */,
 				ABE101C21BE72D9900ACCE0A /* LoginViewController.swift in Sources */,
-				F491E74A1A7F4B300026528E /* NewsTableViewController.swift in Sources */,
 				ABA664881BEF0E88001C2EEF /* LogoutViewController.swift in Sources */,
 				F491E7551A7F7E010026528E /* PhotoViewController.swift in Sources */,
 			);
